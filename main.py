@@ -43,9 +43,9 @@ st.subheader('Model Inputs')
 
 recipe_id = st.number_input('Recipe no. (Optional)', step=1, format="%d")
 cal = st.number_input('Calories')
-carb = st.number_input('Carbohydrate')
-sug = st.number_input('Sugar')
-pro = st.number_input('Protein')
+carb = st.number_input('Carbohydrate (in grams)')
+sug = st.number_input('Sugar (in grams)')
+pro = st.number_input('Protein (in grams)')
 # cat = st.text_input('Category')
 cat = st.selectbox('Pick a category', ['Lunch/Snacks','Beverages', 'Potato','Vegetable', 'Meat', 
                                        'Chicken', 'Pork', 'Dessert', 'Breakfast', 'One Dish Meal'])
